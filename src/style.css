@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Karla", sans-serif;
+    margin: 0;
+    background-color: #f7f7f7;
+}
+
+
+main {
+    margin-top: 20px;
+    padding: 36px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+
+.header {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    height: 65px;
+    background: white;
+    color: black;
+    padding: 20px;
+    box-shadow: 0px 1px 10px grey;
+
+}
+
+.header--image {
+    height: 50px;
+    margin-right: 6px;
+}
+
+.header--title {
+    font-size: 1.5rem;
+    margin-right: auto;
+}
+
+.header--project {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.form {
+    display: grid;
+    grid-template: 40px 40px / 1fr 1fr;
+    gap: 17px;
+    margin-bottom: 17px;
+}
+
+
+.form--input, .url-input {
+    font-family: "Karla", sans-serif;
+    border-radius: 5px;
+    border: 1px solid #D5D4D8;
+    text-indent: 5px;
+    padding: 10px;
+}
+
+.url-input {
+    grid-column: 1 / -1;
+    color: grey;
+    cursor: pointer;
+}
+
+.form--button {
+    grid-column: 1 / -1;
+    font-family: "Karla", sans-serif;
+    border-radius: 5px;
+    background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 12px; 
+    font-size: 1rem;
+}
+.download-btn {
+    font-family: "Karla", sans-serif;
+    border-radius: 5px;
+    background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 12px; 
+    font-size: 1rem;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+
+.meme {
+    position: relative;
+    max-width: 100%;
+    margin: 20px 0;
+}
+
+.meme--image {
+    max-width: 100%;
+    border-radius: 3px;
+    display: block;
+    margin: 0 auto; 
+}
+
+
+.meme--text {
+    position: absolute;
+    width: 80%;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 15px 0;
+    padding: 0 5px;
+    font-family: impact, sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow:
+        2px 2px 0 #000,
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        0 2px 0 #000,
+        2px 0 0 #000,
+        0 -2px 0 #000,
+        -2px 0 0 #000,
+        2px 2px 5px #000;
+}
+
+.bottom {
+    bottom: 0;
+}
+
+.top {
+    top: 0;
+}
