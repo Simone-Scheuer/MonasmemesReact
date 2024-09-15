@@ -110,7 +110,7 @@ export default function Meme() {
                 <h2 className="meme--text bottom">{meme.bottomText}</h2>
             </div>
             <div class="button-container">
-            <button class="download-btn">Download</button>
+            <button class="download-btn" onClick={downloadMeme}>Download</button>
             </div>
             <canvas ref={canvasRef} style={{ display: "none" }}></canvas>
         </main>
